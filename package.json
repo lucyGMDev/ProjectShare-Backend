@@ -1,0 +1,20 @@
+{
+  "name": "projects-backend",
+  "version": "0.1.0",
+  "description": "A backend, for an app to share your web-development projects with comunity",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --quiet index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LucyGMDev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
