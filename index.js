@@ -3,7 +3,7 @@
 require("dotenv").config();
 const app = require("./app");
 const mongoose = require("mongoose");
-const { port,mongodbAddress } = require("./config");
+const { port, mongodbAddress } = require("./config");
 
 mongoose
   .connect(mongodbAddress)
